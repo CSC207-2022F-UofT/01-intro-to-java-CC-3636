@@ -7,6 +7,8 @@
  * relevant readings for each task.
  */
 
+import static java.lang.String.valueOf;
+
 /**
  *  1. In Java, no code can exist outside of a class. Unlike Python which uses
  *    functions, all code in Java uses methods.
@@ -101,7 +103,7 @@ public class Basics {
          */
 
         for (int i = 10; i >= 0; i--){
-            System.out.println(i);
+            System.out.println("Current count: " + i);
         }
 
     }
